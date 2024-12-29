@@ -2,17 +2,14 @@ import Navbar from "@/components/Navbar";
 import SecNav from "@/components/SecNav";
 import Hero from "@/components/Hero";
 import Terms from "@/components/Terms";
-import Vto from "@/components/Vto";
 import VtoSwitch from "@/components/VtoSwitch";
+import Activate from "@/components/Activate";
 
 export default function Home() {
   return (
-    <main className="h-full overflow-y-hidden">
-      <Terms/>
+    <main className="h-full w-full overflow-y-hidden bg-slate-500">
+      <Activate/>
       <VtoSwitch/>
-      <Navbar/>
-      <SecNav/>
-      <Hero/>
     </main>
   );
 }
